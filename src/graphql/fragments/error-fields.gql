@@ -1,0 +1,9 @@
+fragment errorFields on Error {
+  code
+  type
+  message
+  fields {
+    name
+    codes
+  }
+}

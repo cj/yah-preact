@@ -1,0 +1,11 @@
+:global {
+  .Notifications {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0;
+    // We want this always on top as it's a notification
+    z-index: 99;
+    margin: $gap / 4;
+  }
+}

@@ -1,0 +1,3 @@
+mutation RemoveNotification($id: ID!) {
+  removeNotification(id: $id) @client
+}

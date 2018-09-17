@@ -1,0 +1,6 @@
+#import "../fragments/user-fields.gql"
+query User {
+  user @client {
+    ...userFields
+  }
+}

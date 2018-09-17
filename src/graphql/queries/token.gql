@@ -1,0 +1,6 @@
+#import "../fragments/token-fields.gql"
+query Token {
+  token @client {
+    ...tokenFields
+  }
+}

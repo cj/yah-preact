@@ -1,0 +1,20 @@
+{
+    "env": {},
+    "dependencies": {
+        "cjio.tools/style/shared": "1.0.5",
+        "cjio.tools/preact/plugins": "1.0.5",
+        "cjio.tools/src/polyfills": "1.0.0",
+        "cjio.tools/src/lib": "1.0.6",
+        "cjio.tools/components/notifications": "1.0.3"
+    },
+    "componentsDefaultDirectory": "src/{namespace}/{name}",
+    "packageManager": "npm",
+    "resolveModules": {
+        "modulesDirectories": [
+            "src"
+        ],
+        "aliases": {
+            "~": "src"
+        }
+    }
+}

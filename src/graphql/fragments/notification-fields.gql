@@ -1,0 +1,5 @@
+fragment notificationFields on Notification {
+  id
+  type
+  message
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@bit/cjio.tools.src.style",
+  "version": "1.0.2",
+  "homepage": "https://bitsrc.io/cjio/tools/src/style",
+  "main": "index.scss",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE"
+}

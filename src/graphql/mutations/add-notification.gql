@@ -1,0 +1,3 @@
+mutation AddNotification($type: String!, $message: String!) {
+  addNotification(type: $type, message: $message) @client
+}

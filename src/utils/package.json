@@ -1,0 +1,13 @@
+{
+  "name": "@bit/cjio.tools.src.utils",
+  "version": "1.0.2",
+  "homepage": "https://bitsrc.io/cjio/tools/src/utils",
+  "main": "index.js",
+  "dependencies": {
+    "cuid": "^2.1.4",
+    "deepmerge": "^2.1.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE"
+}

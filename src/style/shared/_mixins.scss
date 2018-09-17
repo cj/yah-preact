@@ -1,0 +1,52 @@
+@mixin navbar-reset {
+  align-items: stretch;
+  display: flex;
+  min-height: $navbar-height;
+}
+
+@mixin navbar-is-mobile {
+  @include navbar-reset;
+
+  & > .container {
+    @include navbar-reset;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .navbar-burger {
+    display: none;
+  }
+  .navbar-item {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .navbar-start {
+    justify-content: flex-start;
+    margin-right: auto;
+    display: flex;
+  }
+  .navbar-end {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    margin-left: auto;
+    height: 100%;
+  }
+  .navbar-menu {
+    display: flex;
+    box-shadow: unset;
+    padding: 0;
+    background-color: $navbar-color;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+  .navbar-link, .navbar-item {
+    cursor: pointer;
+    &:hover,
+    &.is-active {
+      background-color: darken($navbar-color, 5%) !important;
+      color: findColorInvert($navbar-color);
+    }
+  }
+}

@@ -1,0 +1,91 @@
+@import url('~animate.css/source/_base.css');
+@import url('~animate.css/source/fading_entrances/fadeIn.css');
+@import url('~animate.css/source/fading_exits/fadeOut.css');
+
+// slideLeft
+
+@keyframes slideLeft {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@include mobile {
+  @keyframes slideLeft {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+
+    to {
+      transform: translate3d(-25%, 0, 0);
+    }
+  }
+}
+
+.slideLeft {
+  animation-name: slideLeft;
+}
+
+// slideLeftHalf
+
+@keyframes slideLeftHalf {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.slideLeftHalf {
+  animation-name: slideLeftHalf;
+}
+
+// slideRight
+
+@keyframes slideRight {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@include mobile {
+  @keyframes slideRight {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+
+    to {
+      transform: translate3d(25%, 0, 0);
+    }
+  }
+}
+
+.slideRight {
+  animation-name: slideRight;
+}
+
+// slideRightHalf
+
+@keyframes slideRightHalf {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(50%, 0, 0);
+  }
+}
+
+.slideRightHalf {
+  animation-name: slideRightHalf;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@bit/cjio.tools.components.notifications",
+  "version": "1.0.3",
+  "homepage": "https://bitsrc.io/cjio/tools/components/notifications",
+  "main": "index.jsx",
+  "dependencies": {
+    "preact": "^8.3.1",
+    "react-apollo": "^2.1.11",
+    "@bit/cjio.tools.src.lib": "file:../../lib"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE"
+}

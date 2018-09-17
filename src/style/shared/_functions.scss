@@ -1,0 +1,14 @@
+// If you really need to use pixels, use this function.
+@function px($pixels, $context: 16px) {
+  @if (unitless($pixels)) {
+    // stylelint-disable-next-line unit-whitelist
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    // stylelint-disable-next-line unit-whitelist
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1em;
+}

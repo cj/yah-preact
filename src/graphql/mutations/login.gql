@@ -1,0 +1,18 @@
+#import "../fragments/user-fields.gql"
+#import "../fragments/error-fields.gql"
+#import "../fragments/token-fields.gql"
+mutation Login($authProvider: AuthProviderInput!) {
+  login(authProvider: $authProvider) {
+    record {
+      ...userFields
+    }
+
+    token {
+      ...tokenFields
+    }
+
+    errors {
+      ...errorFields
+    }
+  }
+}

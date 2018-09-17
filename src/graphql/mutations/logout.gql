@@ -1,0 +1,3 @@
+mutation Logout($message: String) {
+  logout(message: $message) @client
+}

@@ -1,0 +1,5 @@
+fragment permissionFields on Permission {
+  create
+  update
+  destroy
+}

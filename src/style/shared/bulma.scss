@@ -1,0 +1,20 @@
+@import '~bulma/sass/utilities/controls';
+@import '~bulma/sass/utilities/animations';
+@import '~bulma/sass/base/all';
+@import '~bulma/sass/elements/all';
+@import '~bulma/sass/components/all';
+@import '~bulma/sass/grid/all';
+@import '~bulma/sass/layout/all';
+
+.is-fullheight {
+  height: 100%;
+}
+
+.container.is-fullwidth {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.card-content {
+  padding: $card-content-padding;
+}

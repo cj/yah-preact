@@ -1,0 +1,12 @@
+@import './shared/bulma';
+@import './animate';
+
+html,
+body,
+#app,
+.App__container{
+  background-color: $white-bis;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}

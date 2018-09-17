@@ -1,0 +1,6 @@
+#import "../fragments/notification-fields.gql"
+query Notifications {
+  notifications @client {
+    ...notificationFields
+  }
+}

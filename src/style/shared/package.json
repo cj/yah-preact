@@ -1,0 +1,13 @@
+{
+  "name": "@bit/cjio.tools.style.shared",
+  "version": "1.0.5",
+  "homepage": "https://bitsrc.io/cjio/tools/style/shared",
+  "main": "index.scss",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "@bit/cjio.tools.src.style": "1.0.5"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE"
+}

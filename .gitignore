@@ -1,0 +1,19 @@
+# ignore these files/folders
+.*
+*.log
+/node_modules
+/coverage
+/dist
+/build
+
+# allow these files/folders
+!.gitignore
+!.nvmrc
+!.firebaserc*
+!.stylelintrc*
+!.eslintrc*
+!.eslintignore
+!.postcssrc
+!.editorconfig
+!.babelrc
+!.bitmap
